@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="See the payment method page" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-30T03:29:12" hostname="DANIEL" time="33.397">
+  <properties/>
+  <testcase name="See the payment method page" classname="See the payment method page" time="33.397"/>
+  <system-out><![CDATA[Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
+Step argument class io.cucumber.core.gherkin.vintage.GherkinVintageDataTableArgument
+]]></system-out>
+  <system-err><![CDATA[sep 29, 2021 10:29:12 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1632972553294	geckodriver	INFO	Listening on 127.0.0.1:40688
+1632972553898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileFxdPNH"
+1632972554112	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Daniel\\AppData\\Local\\Temp\\rust_mozprofileFxdPNH\\search.json.mozlz4", (void 0)))
+1632972555786	Marionette	INFO	Listening on port 58428
+1632972555946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+sep 29, 2021 10:29:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript warning: https://www.falabella.com.co/_next/static/chunks/184f608ccd7e82e13291db6e5b18ee5cebf53e0d.25088527bcbfe48d9ca5.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://www.falabella.com.co/_next/static/chunks/184f608ccd7e82e13291db6e5b18ee5cebf53e0d.25088527bcbfe48d9ca5.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript warning: https://www.falabella.com.co/a/fa/_next/static/cfb427c00c938b3a5eccd/pages/_app.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.falabella.com.co/falabella-co/search?Ntt=IPHONE+12 line 6 > injectedScript, line 3: ReferenceError: s is not defined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9iDa3dU_tFEhRumWaalqbETNN5HIIuQ-Wj77Xalf13I.js line 1 > eval line 6286 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.falabella.com.co/a/fa/_next/static/cfb427c00c938b3a5eccd/pages/_app.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://www.falabella.com.co/a/fa/_next/static/cfb427c00c938b3a5eccd/pages/product.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://www.falabella.com.co/falabella-co/product/prod10900030/iPhone-12-Pro-Max-128GB/9712300 line 6 > injectedScript, line 3: ReferenceError: s is not defined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript error: https://www.falabella.com.co/falabella-co/basket, line 100: ReferenceError: FalabellaReactApplication is not defined
+JavaScript error: https://www.falabella.com.co/static/assets/77/scripts/react/searchBarApp.js?vid=77, line 1: ReferenceError: webpackJsonp is not defined
+JavaScript error: https://www.falabella.com.co/falabella-co/basket, line 137: ReferenceError: FalabellaReactApplication is not defined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript error: https://www.falabella.com.co/falabella-co/basket line 6 > injectedScript, line 2016: ReferenceError: s is not defined
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript error: https://www.falabella.com.co/static/react/pages/delivery-page/delivery-page.js?vid=77, line 26: Invariant Violation: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+JavaScript error: https://www.falabella.com.co/falabella-co/checkout/delivery?_frr=delivery&_requestid=59881, line 209: SyntaxError: expected expression, got '.'
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-PQRB5NV, line 371: unreachable code after return statement
+1632972584824	Marionette	INFO	Stopped listening on port 58428
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
