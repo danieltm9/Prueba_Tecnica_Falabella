@@ -2,10 +2,10 @@ package falabella.com.co.Exceptions;
 
 public class Different_Result extends AssertionError {
 
-    private static final String ErrorCompra= "Error compra incompleta";
+    private static final String PurchaseError= "Error compra incompleta";
 
-    public static String MensajeError() {
-        return ErrorCompra;
+    public static String ErrorMessage() {
+        return PurchaseError;
     }
 
     public Different_Result(String message, Throwable cause) {

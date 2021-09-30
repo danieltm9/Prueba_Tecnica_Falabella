@@ -1,12 +1,12 @@
 #author: daniel.tobon@hotmail.com
 
-Feature: See the payment method page
+Feature: Automate the procces of buying a product on the Falabella website.
 
-  As a user, I want to find a product and add it to the shopping cart and see the buy page.
+  I want to get to the product payment option
 
-  Scenario: See the payment method page
+  Scenario: See the payment method
 
-    Given Be on the page of falabella
+    Given See falabella's page
     When Look for a product
       |  IPHONE 12  |
     And Add to shopping cart

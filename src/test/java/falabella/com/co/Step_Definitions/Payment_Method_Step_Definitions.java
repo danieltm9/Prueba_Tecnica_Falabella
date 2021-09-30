@@ -28,7 +28,7 @@ public class Payment_Method_Step_Definitions {
         setTheStage(new OnlineCast());
     }
 
-    @Given("Be on the page of falabella")
+    @Given("See falabella's page")
     public void iGoToFalabellaPage() {
         theActorCalled("user").wasAbleTo(Open.browserOn(new Falabella_Index_Page()));
     }
@@ -50,7 +50,7 @@ public class Payment_Method_Step_Definitions {
 
     @Then("See the product on the payment method page")
     public void iWantTooSeeInTheBuyPageTheProduct() {
-        theActorInTheSpotlight().should(seeThat(Payment_Page_Validation.IsSame(), equalTo("Resumen de tu orden")).orComplainWith(Different_Result.class, Different_Result.MensajeError()));
+        theActorInTheSpotlight().should(seeThat(Payment_Page_Validation.IsSame(), equalTo("Resumen de tu orden")).orComplainWith(Different_Result.class, Different_Result.ErrorMessage()));
     }
 
 }
