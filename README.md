@@ -1,9 +1,9 @@
 ![Falabella](https://www.bitrefill.com/content/cn/b_rgb%3Abbd337%2Cc_pad%2Ch_720%2Cw_1280/v1599485967/falabella_colombia.jpg)
 https://www.bitrefill.com/buy/falabella-colombia/?hl=es
 
-# Prueba Tecnica Falabella
+# Prueba Técnica Falabella
 
- Realizar la automatización del proceso de compra de un producto hasta la opción de pago en la pagina web de Falabella.
+ Realizar la automatización del proceso de compra de un producto hasta la opción de pago en la página web de Falabella.
 
  ___
 
@@ -23,15 +23,14 @@ Se procede a instalar las herramientas, realizar la configuración de las variab
 
 Se deben agregar en las variables de entorno del sistema
 
-- JAVA_HOME = ruta donde se ha instalado el java como por ejemplo "C:\Program Files\Java\jdk1.8.0_291\"
+- JAVA_HOME = ruta donde se ha instalado el java, por ejemplo "C:\Program Files\Java\jdk1.8.0_291"
 
-- GRADLE_HOME = ruta donde se descomprimio el gradle como por ejemplo "C:\gradle-6.9.1"
+- GRADLE_HOME = ruta donde se descomprimió el gradle, por ejemplo "C:\gradle-6.9.1"
 
 Despues de crear ambas variables, buscar la variable Path y editar, allí se deben agregar: %JAVA_HOME%\bin y %GRADLE_HOME%\bin
 
 ## WebDrivers
 
-Los WebDrivers se deben descargar de acuerdo a la version del navegador que se disponga, desde la URL: **Chrome** https://chromedriver.chromium.org/downloads o **Firefox** https://github.com/mozilla/geckodriver/releases y se deben agregar en la carpeta target del proyecto como por ejemplo: "D:\GitHub\Prueba_Tecnica_Falabella\target"
+Los WebDrivers se deben descargar de acuerdo a la versión del navegador que se disponga, desde la URL: **Chrome** https://chromedriver.chromium.org/downloads o **Firefox** https://github.com/mozilla/geckodriver/releases y se deben agregar en la carpeta target del proyecto, por ejemplo: "D:\GitHub\Prueba_Tecnica_Falabella\target"
 
 ___
-
